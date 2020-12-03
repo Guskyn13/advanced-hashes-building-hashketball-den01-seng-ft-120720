@@ -1,6 +1,6 @@
 def game_hash
   {
-    home => {team_name: "Brooklyn Nets", colors: ["black, white"],
+    home: {team_name: "Brooklyn Nets", colors: ["black, white"],
       players: [
         {player_name: "Alan Anderson",
           number: 0,
@@ -48,7 +48,7 @@ def game_hash
           blocks: 11,
           slam_dunks: 1}]},
 
-    away => {team_name: "Charlotte Hornets", colors: ["Turquoise, Purple"],
+    away: {team_name: "Charlotte Hornets", colors: ["Turquoise, Purple"],
       players: [{player_name: "Jeff Adrian",
         number: 4,
         shoe: 18,
